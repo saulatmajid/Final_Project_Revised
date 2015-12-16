@@ -260,7 +260,7 @@ def provide_section_all_data(section_2):
 if __name__ == "__main__":
 
     try:
-        GRADE_DATA = load_student_data('SchoolData.csv')
+        GRADE_DATA = load_student_data('ScoreData.csv')
 
         print "Welcome to the Student Progress Tracking System!!"
         while True:
